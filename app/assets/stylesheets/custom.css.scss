@@ -1,0 +1,96 @@
+@import "bootstrap";
+
+/* universal */
+html {		    /* Добавляет полосу прокрутки по оси Y. Можно менять на ось Х или */
+overflow-y: scroll; /* добавить с ним строку */
+}
+body {
+padding-top: 60px; /* В скольких пикселях от верха страницы выводить тело вьюхи */
+}
+section {
+overflow: auto;
+}
+textarea {resize: vertical;
+}
+.center {
+text-align: center; /*Выравнивание текста вьюхи варианты left right center*/
+}
+.center h1 {
+margin-bottom: 10px; /*Отступ снизу от заголовка (тег h) можно указывать отступ любому*/
+}
+
+/* universal */
+
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+line-height: 1;			/*Кажется отступ снизу */
+}
+h1 {
+font-size: 3em;
+letter-spacing: -2px;
+margin-bottom: 30px;
+text-align: center;
+}
+h2 {
+font-size: 1.2em;	/*Размер шрифта*/
+letter-spacing: -1px;	/*Расстояние между буквами по горизонтали*/
+margin-bottom: 30px;	/*Отступ снизу до следующего элемента*/
+text-align: center;	/*Выравнивание текста*/
+font-weight: normal;	/*Начертание шрифта*/
+color: #999;
+}
+p {
+font-size: 1.1em;
+line-height: 1.7em;
+}
+
+/* typography */
+
+/* header */
+
+#logo {
+float: left;
+margin-right: 10px;
+font-size: 1.7em;
+color: Gainsboro;
+text-transform: uppercase;
+letter-spacing: -1px;
+padding-top: 9px;
+font-weight: bold;
+line-height: 1;
+
+}#logo:hover {
+color: #fff;
+text-decoration: none;
+}
+
+/* header */
+
+
+/* footer */
+footer {
+margin-top: 45px;	/* Отступ от тела в низ на Х пикселей всего подвала*/
+padding-top: 5px;	/* Отступ вниз на Х пикселей от Линии разделителя */
+border-top: 1px solid #eaeaea; /* Линия разделитель\граница от тела с Х цветом */
+color: #999;
+}
+footer a {
+color: #555;
+}
+footer a:hover {
+color: #222;
+}
+footer small {
+float: left;
+}
+footer ul {
+float: right;
+list-style: none;
+}
+footer ul li {
+float: left;
+margin-left: 10px;
+}
+
+/* footer */
+
