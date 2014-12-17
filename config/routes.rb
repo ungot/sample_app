@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
 
-  get 'static_pages/home', 'static_pages/help', 'static_pages/about', 'static_pages/contact', 'users/new'
+  get 'static_pages/home', 'static_pages/help', 'static_pages/about', 'static_pages/contact'
 
+resources :users
 
 match '/help', to: 'static_pages#help', via: 'get'
 match '/about', to: 'static_pages#about', via: 'get'
